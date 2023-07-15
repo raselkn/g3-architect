@@ -1,12 +1,16 @@
 /*work sans font*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
 
+/*shared-style*/
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'open-sans', 'sans-serif';
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+        color: #FFF;
 
+    }
 /*header styles*/
 header {
     background: rgba(255, 144, 14, 0.10);
