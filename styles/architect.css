@@ -8,8 +8,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
+        border-radius: 8px;
         color: #FFF;
-
+        font-size: 1.25rem;
+        background: #FF900E;
+        padding: 20px 25px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0;
     }
 /*header styles*/
 header {
@@ -60,4 +66,29 @@ nav li a {
 
 .banner-discription {
     color: #727272;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* responsive media queries*/
+/*for movile device*/
+@media screen and(max-widht :576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/*for tablet or medium screen*/
+
+@media  screen and (min-width :576px) and(max-widht : 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
