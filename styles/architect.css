@@ -203,6 +203,12 @@ main {
     width: 165px;
 }
 
+.footer-section{
+    text-align: center;
+    background :#e4ba89;
+    padding: 40px;
+    margin: 90px;
+}
 /* responsive media queries*/
 /*for movile device*/
 @media screen and(max-widht :576px) {
